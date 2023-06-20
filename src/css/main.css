@@ -1,0 +1,87 @@
+ul,
+input,
+button {
+    all: unset;
+}
+
+.main-content {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container-steps {
+    width: 45vw;
+    margin-top: 10vw;
+}
+
+.form-steps {
+    display: flex;
+}
+
+.label-steps:not(:first-child),
+.form-btn {
+    margin-left: 1.5vw;
+}
+
+.label-steps {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-date,
+.input-distance {
+    height: 4vw;
+    margin-top: 1vw;
+    padding-left: 1vw;
+    border: black solid 1px;
+    border-radius: 5px;
+}
+
+.form-btn {
+    width: 5vw;
+    text-align: center;
+    margin-top: 3vw;
+
+    cursor: pointer;
+
+    border: black solid 1px;
+    border-radius: 5px;
+}
+
+.titles-list,
+.item-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title:first-child {
+    margin-left: 3vw;
+}
+
+.title:last-child {
+    margin-right: 3vw;
+}
+
+.list-items {
+    padding: 3vw;
+
+    border: black solid 1px;
+    border-radius: 20px;
+}
+
+.item-row {
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+.item-row:not(:last-child) {
+    margin-bottom: 2vw;
+}
+
+.btn-update,
+.btn-delete {
+    margin-right: 1vw;
+    cursor: pointer;
+}
